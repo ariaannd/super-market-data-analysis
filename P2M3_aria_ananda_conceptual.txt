@@ -1,0 +1,60 @@
+CONCEPTUAL PROBLEM & JAWABAN
+
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+Jawaban:
+
+NoSQL mengacu pada kategori database yang tidak mengikuti model relasional tradisional seperti 
+yang digunakan dalam SQL. NoSQL memiliki berbagai macam model penyimpanan data yang fleksibel, 
+seperti dokumen, grafik, atau kolom sehingga memungkinkan penyimpanan dan pengelolaan data yang 
+lebih dinamis dan tidak terikat pada skema tabular.
+
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+Jawaban:
+
+Penggunaan NoSQL atau Relational Database Management System (RDBMS) tergantung pada karakteristik 
+dan kebutuhan aplikasi. NoSQL cocok digunakan ketika aplikasi membutuhkan skala yang besar, memproses 
+data yang tidak terstruktur, atau sering melakukan perubahan struktur data. Di sisi lain, RDBMS lebih 
+sesuai untuk aplikasi yang membutuhkan konsistensi data tingkat tinggi, seperti sistem keuangan atau 
+manajemen inventaris.
+
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+Jawaban:
+
+Contoh platform NoSQL selain ElasticSearch adalah MongoDB dan Cassandra. MongoDB memiliki fleksibilitas 
+penyimpanan dokumen yang cocok untuk aplikasi dengan data yang beragam. Sementara itu, Cassandra menonjol 
+dalam kinerja tinggi dan toleransi terhadap kegagalan, menjadikannya pilihan yang baik untuk aplikasi 
+yang memerlukan skala besar dan ketersediaan tinggi.
+
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Jawaban:
+
+Apache Airflow adalah platform manajemen alur kerja data yang memungkinkan pengguna untuk menjadwalkan, 
+mengatur, dan memantau alur kerja pengolahan data secara otomatis. Dengan Airflow, pengguna dapat 
+dengan mudah membuat dan menjalankan alur kerja kompleks dengan memanfaatkan antarmuka grafis yang intuitif.
+
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Jawaban:
+
+Great Expectations adalah alat validasi data open-source yang memungkinkan pengguna untuk menetapkan, 
+menguji, dan memantau ekspektasi dari data pengguna. Dengan Great Expectations, pengguna dapat memastikan 
+integritas, kualitas, dan validitas data mereka dengan mendefinisikan aturan dan harapan secara fleksibel.
+
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Jawaban:
+
+Batch Processing merujuk pada pendekatan pengolahan data di mana data diproses dalam jumlah besar 
+secara bersamaan. Contoh kasus penggunaannya termasuk pemrosesan data penjualan harian dalam sistem 
+analisis atau pengolahan log besar untuk analisis tren. Alat-alat seperti Apache Spark dan 
+Apache Hadoop sering digunakan untuk batch processing karena kemampuan mereka dalam menangani volume 
+data yang besar dan menyediakan kerangka kerja yang efisien untuk pemrosesan paralel.

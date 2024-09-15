@@ -1,0 +1,53 @@
+-- Dataset: https://www.kaggle.com/datasets/arunjangir245/super-market-sales
+
+-- DDL Syntax:
+
+-- Create Database
+CREATE DATABASE aria_milestone3
+
+-- Create Table
+CREATE TABLE table_m3 (
+    "Invoice ID" SERIAL PRIMARY KEY,
+    "Branch" VARCHAR(1),
+    "City" VARCHAR(20),
+    "Customer type" VARCHAR(20),
+    "Gender" VARCHAR(20),
+    "Product line" VARCHAR(50),
+    "Unit price" FLOAT,
+    "Quantity" INT,
+    "Tax 5%" FLOAT,
+    "Total" FLOAT,
+    "Date" VARCHAR(50),
+    "Time" VARCHAR(50),
+    "Payment" VARCHAR(50),
+    "cogs" FLOAT,
+    "gross margin percentage" FLOAT,
+    "gross income" FLOAT,
+    "Rating" FLOAT,
+);
+
+-- DML Syntax:
+-- Copy data from csv
+COPY TABLE table_m3 (
+    "Invoice ID",
+    "Branch",
+    "City",
+    "Customer type",
+    "Gender",
+    "Product line",
+    "Unit price",
+    "Quantity",
+    "Tax 5%",
+    "Total",
+    "Date",
+    "Time",
+    "Payment",
+    "cogs",
+    "gross margin percentage",
+    "gross income",
+    "Rating",
+)
+
+FROM '/files/P2M3_aria_ananda_data_raw.csv'
+DELIMITER ','
+CSV HEADER;
